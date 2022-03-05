@@ -4,14 +4,15 @@
 function reloadconfirm() {
   let v = window.confirm("Do you want to reload");
   if (v == true) {
+    alert(" Ok reloading")
     window.location.reload()
   }
   else {
-    alert("ok not reloading")
+    alert("Ok not reloading")
   }
 }
 
 console.log("the script properly loaded");
-document.getElementById("Button").onclick = function() {
+document.getElementById("button").onclick = function() {
     reloadconfirm()
 }
