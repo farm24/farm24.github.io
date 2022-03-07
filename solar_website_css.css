@@ -4,6 +4,7 @@
 .aia193 {
   position: absolute;
   top: 0px;
+  left: 0px;
   height: 250px;
   width: 250px;
   display: flex;
@@ -16,7 +17,8 @@
 }
 .hmiintensitygram {
   position: absolute;
-  top: 300px;
+  top: 900px;
+  left: 0px;
   height: 250px;
   width: 250px;
   display: flex;
@@ -29,7 +31,8 @@
 }
 .aia171 {
   position: absolute;
-  top: 600px;
+  top: 0px;
+  left: 300px;
   height: 250px;
   width: 250px;
   display: flex;
@@ -42,9 +45,8 @@
 }
 .buttonn {
   position: absolute;
-  left: 600px;
-  top: 0;
-} 
+  left: 900px;
+}
 .j_out {
   position: absolute;
   left: 300px;
@@ -52,7 +54,7 @@
 }
 .hmimagnetogram {
   position: absolute;
-  top: 0px;
+  top: 900px;
   left: 300px;
   height: 250px;
   width: 250px;
@@ -64,9 +66,121 @@
   max-width: 100%;
   max-height: 100%;
 }
-.bottom {
+.aia094 {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia094 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia131 {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia131 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia211 {
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia211 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia335 {
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia335 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia304 {
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia304 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia1600 {
+  position: absolute;
+  top: 600px;
+  left: 300px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia1600 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.aia1700 {
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aia1700 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.hmidopplergram {
   position: absolute;
   top: 900px;
+  left: 600px;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hmidopplergram img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.bottom {
+  position: absolute;
+  top: 1200px;
 }
 
 /* just to suffer? */
