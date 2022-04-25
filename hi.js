@@ -6,3 +6,4 @@ function loadDoc() {
   xhttp.open("GET", "hi.xml", true);
   xhttp.send();
 }
+//hi
