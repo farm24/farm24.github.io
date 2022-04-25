@@ -1,9 +1,9 @@
 function loadDoc() {
   const xhttp = new XMLHttpRequest();
   xhttp.onload = function() {
-    document.getElementById("dd").innerHTML = Date()
+    document.getElementById("d").innerHTML = this.responseText
   }
-  //xhttp.open("GET", "hi.txt", true);
+  xhttp.open("GET", "hi.txt", true);
   xhttp.send();
 }
-//hi hi
+//hi

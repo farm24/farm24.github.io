@@ -1,1 +1,3 @@
-<p id="bb"></p>
+<script type="text/javascript">
+  document.getElementById("time").innerHTML = date()
+</script>
