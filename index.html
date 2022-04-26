@@ -13,15 +13,5 @@
       <p id="timm"></p>
     </div>
   </body>
-  <script>
-    function loadDoc() {
-      const xhttp = new XMLHttpRequest();
-      xhttp.onload = function() {
-        document.getElementById("time").innerHTML = this.responseText
-      }
-      xhttp.open("GET", "hi.txt", true);
-      xhttp.send();
-    }
-    //hi
-  </script>
+  <script src="hi.js" charset="utf-8"></script>
 </html>
