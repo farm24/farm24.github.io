@@ -1,4 +1,4 @@
 <p id="timm"></p>
 <script type="text/javascript">
-  document.getElementById("timm").innerHTML = Date()
+  document.getElementById("timm").innerHTML = "hi"
 </script>
