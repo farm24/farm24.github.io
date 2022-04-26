@@ -7,3 +7,6 @@ function loadDoc() {
   xhttp.send();
 }
 //hi
+function hi() {
+  document.getElementById("idk").innerHTML = "hi"
+}
