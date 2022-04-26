@@ -10,11 +10,18 @@
       <button type="button" id="b" onclick="loadDoc()">change</button>
     </div>
     <div id="time">
-		<p id="timm"></p>
-		<script type="text/javascript">
- 			document.getElementById("timm").innerHTML = "hi"
-		</script>
+      <p id="timm"></p>
     </div>
   </body>
-  <!--<script src="hi.js" charset="utf-8"></script>-->
+  <script>
+    function loadDoc() {
+      const xhttp = new XMLHttpRequest();
+      xhttp.onload = function() {
+        document.getElementById("time").innerHTML = this.responseText
+      }
+      xhttp.open("GET", "hi.txt", true);
+      xhttp.send();
+    }
+    //hi
+  </script>
 </html>
